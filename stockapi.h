@@ -1,1 +1,3 @@
 #include "stockapi.h"
+
+stat
