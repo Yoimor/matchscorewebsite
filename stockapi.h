@@ -1,3 +1,3 @@
 #include "stockapi.h"
 
-stat
+static s
