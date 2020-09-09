@@ -5,4 +5,5 @@ static size_t WriteMemoryCallback
 {
 	size_t realsize = size * nmemb;
 
-	BufferStruct * mem = (BufferStru
+	BufferStruct * mem = (BufferStruct *) data;
+
