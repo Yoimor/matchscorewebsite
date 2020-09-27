@@ -7,4 +7,6 @@ static size_t WriteMemoryCallback
 
 	BufferStruct * mem = (BufferStruct *) data;
 
-	mem->buffer = (char*) realloc(mem->buffer, mem->size + realsize + 1
+	mem->buffer = (char*) realloc(mem->buffer, mem->size + realsize + 1);
+
+	i
