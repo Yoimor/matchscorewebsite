@@ -9,4 +9,4 @@ static size_t WriteMemoryCallback
 
 	mem->buffer = (char*) realloc(mem->buffer, mem->size + realsize + 1);
 
-	if ( me
+	if ( mem->b
