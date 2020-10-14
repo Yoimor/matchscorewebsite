@@ -11,4 +11,4 @@ static size_t WriteMemoryCallback
 
 	if ( mem->buffer )
 	{
-		
+		memc
