@@ -13,4 +13,5 @@ static size_t WriteMemoryCallback
 	{
 		memcpy( &( mem->buffer[ mem->size ] ), ptr, realsize );
 		mem->size += realsize;
-		mem->buffer[ mem->size ] =
+		mem->buffer[ mem->size ] = 0;
+	
