@@ -15,4 +15,4 @@ static size_t WriteMemoryCallback
 		mem->size += realsize;
 		mem->buffer[ mem->size ] = 0;
 	}
-	ret
+	return real
