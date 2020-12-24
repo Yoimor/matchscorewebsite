@@ -17,3 +17,5 @@ static size_t WriteMemoryCallback
 	}
 	return realsize;
 }
+
+int 
