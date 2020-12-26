@@ -18,4 +18,4 @@ static size_t WriteMemoryCallback
 	return realsize;
 }
 
-int str_t
+int str_to_arr
