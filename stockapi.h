@@ -18,4 +18,4 @@ static size_t WriteMemoryCallback
 	return realsize;
 }
 
-int str_to_array (cha
+int str_to_array (char* li
