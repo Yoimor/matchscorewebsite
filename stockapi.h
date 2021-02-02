@@ -18,4 +18,4 @@ static size_t WriteMemoryCallback
 	return realsize;
 }
 
-int str_to_array (char* line, GPtrArray* dat
+int str_to_array (char* line, GPtrArray* data) {
