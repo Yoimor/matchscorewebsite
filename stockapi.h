@@ -21,3 +21,4 @@ static size_t WriteMemoryCallback
 int str_to_array (char* line, GPtrArray* data) {
 
 	STOCK* recordset = (STOCK*) malloc (sizeof (STOCK));
+	char* 
