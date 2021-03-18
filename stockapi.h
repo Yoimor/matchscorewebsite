@@ -25,4 +25,5 @@ int str_to_array (char* line, GPtrArray* data) {
 	
 	if (!token) {
 
-		return
+		return 0;
+	
