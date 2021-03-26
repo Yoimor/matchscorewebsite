@@ -28,4 +28,5 @@ int str_to_array (char* line, GPtrArray* data) {
 		return 0;
 	}
 
-	strcpy (line, token
+	strcpy (line, token);
+	
