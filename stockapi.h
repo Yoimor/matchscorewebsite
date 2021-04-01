@@ -30,4 +30,4 @@ int str_to_array (char* line, GPtrArray* data) {
 
 	strcpy (line, token);
 	
-	strcpy (recor
+	strcpy (recordset
