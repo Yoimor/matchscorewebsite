@@ -31,4 +31,4 @@ int str_to_array (char* line, GPtrArray* data) {
 	strcpy (line, token);
 	
 	strcpy (recordset -> date, line);
-	recordset -> open
+	recordset -> open =
