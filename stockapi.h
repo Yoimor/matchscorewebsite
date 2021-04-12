@@ -32,4 +32,4 @@ int str_to_array (char* line, GPtrArray* data) {
 	
 	strcpy (recordset -> date, line);
 	recordset -> open = atof (strtok (NULL, ",\n"));
-	recor
+	recordset -
