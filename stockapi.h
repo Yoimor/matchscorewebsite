@@ -35,4 +35,4 @@ int str_to_array (char* line, GPtrArray* data) {
 	recordset -> high = atof (strtok (NULL, ",\n"));
 	recordset -> low = atof (strtok (NULL, ",\n"));
 	recordset -> close = atof (strtok (NULL, ",\n"));
-	recordset -> volume = atof (strtok (
+	recordset -> volume = atof (strtok (NULL,
