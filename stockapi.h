@@ -39,4 +39,5 @@ int str_to_array (char* line, GPtrArray* data) {
 	recordset -> adj_close = atof (strtok (NULL, ",\n"));
 
 	g_ptr_array_add (data, recordset);
-	ret
+	return 1;
+}
