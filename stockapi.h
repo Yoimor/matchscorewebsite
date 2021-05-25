@@ -41,3 +41,5 @@ int str_to_array (char* line, GPtrArray* data) {
 	g_ptr_array_add (data, recordset);
 	return 1;
 }
+
+/*
