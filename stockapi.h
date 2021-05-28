@@ -43,4 +43,4 @@ int str_to_array (char* line, GPtrArray* data) {
 }
 
 /*
-stat
+static siz
