@@ -43,4 +43,4 @@ int str_to_array (char* line, GPtrArray* data) {
 }
 
 /*
-static size_t Wri
+static size_t WriteMe
