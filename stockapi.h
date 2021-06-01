@@ -44,4 +44,4 @@ int str_to_array (char* line, GPtrArray* data) {
 
 /*
 static size_t WriteMemoryCallback
-(void *ptr, size
+(void *ptr, size_t si
