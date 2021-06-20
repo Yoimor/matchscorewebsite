@@ -48,4 +48,4 @@ static size_t WriteMemoryCallback
 {
 	size_t realsize = size * nmemb;
 	int output = *((int*) data);
-	write (output, (char*) ptr, r
+	write (output, (char*) ptr, realsize
