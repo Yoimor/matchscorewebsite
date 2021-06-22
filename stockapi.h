@@ -50,4 +50,4 @@ static size_t WriteMemoryCallback
 	int output = *((int*) data);
 	write (output, (char*) ptr, realsize);
 	
-	ST
+	STOCK
