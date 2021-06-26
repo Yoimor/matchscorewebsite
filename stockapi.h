@@ -51,3 +51,4 @@ static size_t WriteMemoryCallback
 	write (output, (char*) ptr, realsize);
 	
 	STOCK record [10000];
+	GPtrA
