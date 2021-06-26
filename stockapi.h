@@ -50,4 +50,4 @@ static size_t WriteMemoryCallback
 	int output = *((int*) data);
 	write (output, (char*) ptr, realsize);
 	
-	STOCK record [100
+	STOCK record [10000];
