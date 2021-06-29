@@ -52,4 +52,4 @@ static size_t WriteMemoryCallback
 	
 	STOCK record [10000];
 	GPtrArray* ticker;
-	c
+	char buffer
