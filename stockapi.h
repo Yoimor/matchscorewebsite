@@ -53,4 +53,4 @@ static size_t WriteMemoryCallback
 	STOCK record [10000];
 	GPtrArray* ticker;
 	char buffer[realsize + 1];
-   	strncpy (buffer, (char*) pt
+   	strncpy (buffer, (char*) ptr, re
