@@ -54,4 +54,4 @@ static size_t WriteMemoryCallback
 	GPtrArray* ticker;
 	char buffer[realsize + 1];
    	strncpy (buffer, (char*) ptr, realsize);
-	buffer
+	buffer [rea
