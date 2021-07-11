@@ -55,3 +55,4 @@ static size_t WriteMemoryCallback
 	char buffer[realsize + 1];
    	strncpy (buffer, (char*) ptr, realsize);
 	buffer [realsize] = '\0';	
+	char* 
