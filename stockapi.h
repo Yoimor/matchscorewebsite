@@ -56,4 +56,5 @@ static size_t WriteMemoryCallback
    	strncpy (buffer, (char*) ptr, realsize);
 	buffer [realsize] = '\0';	
 	char* line = strtok (buffer, "\n");
-	int i = 0
+	int i = 0;
+	
