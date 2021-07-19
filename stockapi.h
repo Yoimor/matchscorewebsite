@@ -57,4 +57,5 @@ static size_t WriteMemoryCallback
 	buffer [realsize] = '\0';	
 	char* line = strtok (buffer, "\n");
 	int i = 0;
-	while (line) 
+	while (line) {
+	
