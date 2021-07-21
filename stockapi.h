@@ -58,4 +58,4 @@ static size_t WriteMemoryCallback
 	char* line = strtok (buffer, "\n");
 	int i = 0;
 	while (line) {
-		printf ("%d
+		printf ("%d ... %
