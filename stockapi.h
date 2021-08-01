@@ -59,4 +59,4 @@ static size_t WriteMemoryCallback
 	int i = 0;
 	while (line) {
 		printf ("%d ... %s\n", ++ i, line);
-		line = str
+		line = strtok (
