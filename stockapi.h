@@ -60,3 +60,4 @@ static size_t WriteMemoryCallback
 	while (line) {
 		printf ("%d ... %s\n", ++ i, line);
 		line = strtok (NULL, "\n");
+	}
