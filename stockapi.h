@@ -62,4 +62,6 @@ static size_t WriteMemoryCallback
 		line = strtok (NULL, "\n");
 	}
 
-	return realsiz
+	return realsize;
+}
+*
