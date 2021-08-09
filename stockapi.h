@@ -67,4 +67,4 @@ static size_t WriteMemoryCallback
 */
 
 
-/* curl_g
+/* curl_global
