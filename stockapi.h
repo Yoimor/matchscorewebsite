@@ -67,4 +67,4 @@ static size_t WriteMemoryCallback
 */
 
 
-/* curl_global_init (CUR
+/* curl_global_init (CURL_GL
