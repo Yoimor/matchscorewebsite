@@ -69,4 +69,4 @@ static size_t WriteMemoryCallback
 
 /* curl_global_init (CURL_GLOBAL_ALL); */
 
-long get_sto
+long get_stock_from
