@@ -70,4 +70,5 @@ static size_t WriteMemoryCallback
 /* curl_global_init (CURL_GLOBAL_ALL); */
 
 long get_stock_from_yahoo (char* code, 
-		char* from_mm, char* from_dd, char* from_y
+		char* from_mm, char* from_dd, char* from_yy, 
+		ch
