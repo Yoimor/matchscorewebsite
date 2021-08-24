@@ -71,4 +71,4 @@ static size_t WriteMemoryCallback
 
 long get_stock_from_yahoo (char* code, 
 		char* from_mm, char* from_dd, char* from_yy, 
-		char* to_mm, char* to_dd, 
+		char* to_mm, char* to_dd, char
