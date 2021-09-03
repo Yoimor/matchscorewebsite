@@ -73,4 +73,5 @@ long get_stock_from_yahoo (char* code,
 		char* from_mm, char* from_dd, char* from_yy, 
 		char* to_mm, char* to_dd, char* to_yy, GPtrArray* data) {
 		
-		STOCK record [10
+		STOCK record [10000];	
+	
