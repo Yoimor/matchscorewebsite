@@ -74,4 +74,4 @@ long get_stock_from_yahoo (char* code,
 		char* to_mm, char* to_dd, char* to_yy, GPtrArray* data) {
 		
 		STOCK record [10000];	
-		int f
+		int fd[2]
