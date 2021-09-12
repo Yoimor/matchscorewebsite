@@ -76,4 +76,4 @@ long get_stock_from_yahoo (char* code,
 		STOCK record [10000];	
 		int fd[2];
 
-		int curs
+		int curse;
