@@ -77,3 +77,5 @@ long get_stock_from_yahoo (char* code,
 		int fd[2];
 
 		int curse;
+		
+	
