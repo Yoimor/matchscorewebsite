@@ -78,4 +78,4 @@ long get_stock_from_yahoo (char* code,
 
 		int curse;
 		
-		char* temp = "http://ichart.finance.y
+		char* temp = "http://ichart.finance.yahoo.
