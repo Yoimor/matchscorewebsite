@@ -80,4 +80,5 @@ long get_stock_from_yahoo (char* code,
 		
 		char* temp = "http://ichart.finance.yahoo.com/table.csv?s=";
 		char url [100];
-		memset (url, 0x00, sizeof (url)
+		memset (url, 0x00, sizeof (url));
+	
