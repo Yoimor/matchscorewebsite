@@ -82,4 +82,4 @@ long get_stock_from_yahoo (char* code,
 		char url [100];
 		memset (url, 0x00, sizeof (url));
 		strcpy (url, temp);
-		curse = (int) st
+		curse = (int) strl
