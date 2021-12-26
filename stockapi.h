@@ -97,4 +97,4 @@ long get_stock_from_yahoo (char* code,
 		curse = (int) strlen (url);
 
 		strcpy (url + curse, from_dd);
-		curse = (int) str
+		curse = (int) strlen (
