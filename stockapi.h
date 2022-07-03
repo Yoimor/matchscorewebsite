@@ -126,4 +126,4 @@ long get_stock_from_yahoo (char* code,
 
 		strcpy (url + curse, "&g=d&ignore=.csv");
 		
-	/*	int output = open ("outp
+	/*	int output = open ("output2.csv
