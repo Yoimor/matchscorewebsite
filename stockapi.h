@@ -130,4 +130,5 @@ long get_stock_from_yahoo (char* code,
 		if (output == -1) return 1; */
 		BufferStruct buffer;
 		buffer.buffer = NULL;
-		buffer.size
+		buffer.size = 0;
+		C
