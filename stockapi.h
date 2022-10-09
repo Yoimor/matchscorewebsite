@@ -132,4 +132,4 @@ long get_stock_from_yahoo (char* code,
 		buffer.buffer = NULL;
 		buffer.size = 0;
 		CURL* curlHandle = curl_easy_init ();
-		curl_easy_setopt (curlHandle,
+		curl_easy_setopt (curlHandle, CURLO
