@@ -134,4 +134,4 @@ long get_stock_from_yahoo (char* code,
 		CURL* curlHandle = curl_easy_init ();
 		curl_easy_setopt (curlHandle, CURLOPT_URL, url);
 		curl_easy_setopt(curlHandle, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
-		curl_easy_setopt (c
+		curl_easy_setopt (curlHandl
