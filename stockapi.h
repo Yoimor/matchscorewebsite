@@ -137,4 +137,4 @@ long get_stock_from_yahoo (char* code,
 		curl_easy_setopt (curlHandle, CURLOPT_WRITEDATA, (void*) &buffer);
 		curl_easy_perform (curlHandle);
 		
-		lo
+		long statLong;
