@@ -138,4 +138,4 @@ long get_stock_from_yahoo (char* code,
 		curl_easy_perform (curlHandle);
 		
 		long statLong;
-		curl_easy_getinfo (curlHandle, CURLINFO_HTTP_CODE, &statL
+		curl_easy_getinfo (curlHandle, CURLINFO_HTTP_CODE, &statLong);
