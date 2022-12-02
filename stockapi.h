@@ -141,4 +141,5 @@ long get_stock_from_yahoo (char* code,
 		curl_easy_getinfo (curlHandle, CURLINFO_HTTP_CODE, &statLong);
 		
 		if (statLong != 200L) {
-			return statLo
+			return statLong;
+		}
