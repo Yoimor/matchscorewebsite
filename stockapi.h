@@ -143,4 +143,5 @@ long get_stock_from_yahoo (char* code,
 		if (statLong != 200L) {
 			return statLong;
 		}
-	
+		
+		in
