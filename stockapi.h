@@ -144,4 +144,5 @@ long get_stock_from_yahoo (char* code,
 			return statLong;
 		}
 		
-		int i = 0
+		int i = 0;
+		cha
