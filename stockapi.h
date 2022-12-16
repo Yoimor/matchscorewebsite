@@ -145,4 +145,4 @@ long get_stock_from_yahoo (char* code,
 		}
 		
 		int i = 0;
-		char* line = strtok (buffer.b
+		char* line = strtok (buffer.buff
