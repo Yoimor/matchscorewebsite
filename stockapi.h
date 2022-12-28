@@ -148,4 +148,6 @@ long get_stock_from_yahoo (char* code,
 		char* line = strtok (buffer.buffer, ",\n");
 		for (i=0;i<6;i++) {
 			strtok (NULL, ",\n");
-		
+		}
+	
+	
