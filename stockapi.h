@@ -152,3 +152,5 @@ long get_stock_from_yahoo (char* code,
 	
 		int t = 1;
 		while (str_to_array (line, data)) {
+			
+		}
