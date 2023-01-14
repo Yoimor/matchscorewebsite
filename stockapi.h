@@ -154,4 +154,4 @@ long get_stock_from_yahoo (char* code,
 		while (str_to_array (line, data)) {
 			
 		}
-		curl_easy_cleanup (curlHandle
+		curl_easy_cleanup (curlHandle);
