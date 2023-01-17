@@ -156,4 +156,4 @@ long get_stock_from_yahoo (char* code,
 		}
 		curl_easy_cleanup (curlHandle);
 
-		return
+		return statLon
