@@ -3,4 +3,4 @@
 
 int main(void)
 {
-	GPtrArray* da
+	GPtrArray* data = g
