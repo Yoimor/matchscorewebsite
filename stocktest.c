@@ -3,4 +3,4 @@
 
 int main(void)
 {
-	GPtrArray* data = g_ptr_array_
+	GPtrArray* data = g_ptr_array_new ()
